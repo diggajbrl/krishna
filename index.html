@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Krishna Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            padding: 15px 0;
+            text-align: center;
+            font-size: large;
+            background-color: rgb(21, 7, 75);
+            height: 15vh;
+            color: brown;
+        }
+
+        header h2 {
+            color: white;
+            font-size: xx-large;
+        }
+
+        main {
+            background-color: rgba(183, 180, 180, 0.626);
+        }
+
+        #home {
+            text-align: center;
+
+
+        }
+
+        #home h1 {
+            color: brown;
+        }
+
+        #home h2 {
+            color: brown;
+        }
+
+        #home a {
+            display: inline-block;
+            width: fit-content;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 5px;
+            padding: 12px 22px;
+            font-weight: bold;
+            background-color: rgb(26, 26, 100);
+            color: red;
+        }
+
+        #skills h2 {
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+
+        }
+
+        .skills p {
+            display: inline-block;
+            width: fit-content;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 5px;
+            padding: 12px 22px;
+            font-weight: bold;
+            background-color: rgb(20, 42, 123);
+            color: red;
+        }
+
+        #projects h2 {
+            display: flex;
+            justify-content: center;
+
+            text-align: center;
+            color: red;
+        }
+
+        .content-1 {
+            width: 100%;
+            gap: 12px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .blood {
+            background-color: aqua;
+
+            border: 2px red solid;
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 8px;
+
+
+        }
+
+        .rohit {
+
+            background-color: aqua;
+
+            border: 2px red solid;
+
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 8px;
+
+        }
+
+        .store {
+            background-color: aqua;
+
+            border: 2px red solid;
+
+            text-align: center;
+            padding: 12px 0;
+            border-radius: 8px;
+
+        }
+
+        #education {
+            text-align: center;
+
+            height: 20vh;
+
+
+
+            background-color: rgb(84, 154, 174);
+        }
+
+        #contact {
+            display: flex;
+            justify-content: center;
+        }
+
+        .details {
+            text-align: center;
+            width: 75vw;
+
+            height: 50vh;
+            position: relative;
+
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+
+        .foot {
+
+            padding: 30px;
+            border: 20px;
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(16, 16, 60);
+            color: red;
+            text-align: center;
+        }
+
+        #about {
+            display: inline-block;
+            width: fit-content;
+
+            text-decoration: none;
+
+            padding: 12px 22px;
+            font-weight: bold;
+            background-color: rgb(20, 95, 123);
+            color: black;
+            text-align: center;
+            height: 20vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Krishna</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="home">
+            <nav>
+                <img src="WhatsApp Image 2026-09-27 at 02.28.59.jpeg" width="300" alt="Photo">
+            </nav>
+            <h1>Hi, I am Krishna Chaudhary Tharu</h1>
+            <h2>AI and Machine Learning Engineering Student</h2>
+            <br>
+            <p>
+                I am passionate student interested in Artificial Intelligence, Machine learning and Web Development.
+            </p>
+            <br>
+            <br>
+            <a href="#projects">Projects</a>
+            <br>
+            <a href="#contact">Contact</a>
+
+        </section>
+        <br><br>
+        <section id="about">
+            <h2>About Me</h2>
+            <br>
+            <p>
+                Hello, I am Krishna Chaudhary Tharu, an AI & Machine Learning Engineering student.I am currently
+                learning programming,web development,Artificial Intelligence and Machine Learning.
+            </p>
+
+        </section>
+        <br>
+        <br>
+
+        <div id="skills">
+            <h2>My Skills</h2>
+            <br>
+
+            <section class="skills">
+
+                <p>HTML</p>
+                <br><br>
+                <p>CSS</p>
+                <br><br>
+                <p>JavaScript</p>
+                <br><br>
+                <p>Python</p>
+                <br><br>
+                <p>Numpy</p>
+                <br><br>
+                <p>Pandas</p>
+            </section>
+        </div>
+        <br><br>
+        <div class="final_project">
+            <section id="projects">
+
+                <h2>My Projects</h2>
+                <br>
+                <div class="content-1">
+
+                    <div class="blood">
+                        <h3>Blood Finder Website</h3>
+                        <p>
+                            A website that helps users find blood donors based on blood group and location.
+                        </p>
+
+                        <h4>Technologies: HTML, CSS, JavaScript</h4>
+                    </div>
+
+
+                    <div class="rohit">
+                        <h3>The Hitman Rohit Sharma Website</h3>
+                        <p>From This website people we learn most of the from his journey.
+                            We can understand about him and know him.
+                        </p>
+
+                        <h4>Technologies: HTML, CSS, JavaScript</h4>
+
+                    </div>
+
+                    <div class="store">
+                        <h3>D.P Generak Store Website</h3>
+                        <p>A simple online order taking for a local general store.</p>
+
+                        <h4>Technologies: HTML, CSS, JavaScript</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <br><br>
+        <section id="education">
+            <h2>Education</h2>
+            <br>
+            <h3>B.Tech in AI & Machine Learning</h3>
+            <p>currently pursuing my undergraduate degree in Artificial Intelligence & Machine Learning.</p>
+        </section>
+        <br><br>
+        <section id="contact">
+            <div class="details">
+                <h2>Contact Me</h2>
+                <p>Email:krishnachaudhary4085@gnail.com</p>
+                <br>
+                <a href="https://www.facebook.com/krishna.chaudhary.923340"><img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/018/930/476/small_2x/facebook-logo-facebook-icon-transparent-free-png.png"
+                        width="50" alt="facebook"></a>
+
+                <a href="https://www.instagram.com/krishna_chaudhary115">
+                    <img src="https://www.bing.com/th/id/OIP.fNdYnbLL5ZOf4A7isn_kbwHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2"
+                        width="40" alt="instagram">
+                </a>
+                <a href="https://www.linkdin.com" target="_blank">
+                    <img src="data:image/webp;base64,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"
+                        width="40" alt="linkdin">
+                </a>
+                <br>
+                <br>
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" placeholder="Enter your name" id="name">
+                    <br><br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" placeholder="Enter your email" id="email">
+                    <br><br>
+                    <label>Submit:</label>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <br>
+        <br>
+
+
+    </main>
+    <footer>
+        <div class="foot">
+            <p>&copy;2026 Thank you for visiting my website!</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
